@@ -15,6 +15,13 @@
         var nomes = ['Diego', 'Gabriel', 'Lucas'];
         var listE = document.querySelector('ul');
 
+        function addItem(text) {
+            var liE = document.createElement('li');
+            var textE = document.createTextNode(text);
+            liE.appendChild(textE);
+            listE.appendChild(liE);
+        }
+
         for (nome of nomes) {
             var liE = document.createElement('li');
             var textE = document.createTextNode(nome);
