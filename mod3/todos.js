@@ -39,5 +39,7 @@ function addTodo() {
 buttonElement.onclick = addTodo;
 
 function DeleteTodo(pos) {
-    
+    todos.splice(pos,1)
+    renderTodos();
+    saveToStorage()
     }
