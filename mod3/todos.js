@@ -27,3 +27,8 @@ function renderTodos() {
     }
 
 }
+renderTodos();
+
+function addTodo() {
+    
+}
