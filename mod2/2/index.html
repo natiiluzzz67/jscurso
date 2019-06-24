@@ -10,6 +10,12 @@
         <button id="botao">CLICA NO BOTÃO</button>
         <div id="espaco"></div>
 
+        
+
+        <script>
+        var Btn = document.getElementById("botao");
+        var Esp = document.getElementById("espaco");
+
         function getRandomColor() {
             var letters = "0123456789ABCDEF";
             var color = "#";
@@ -19,10 +25,6 @@
             return color;
 
         }
-
-        <script>
-        var Btn = document.getElementById("botao");
-        var Esp = document.getElementById("espaco");
 
         Btn.onclick = function () {
             var EspE = document.createElement("div");
