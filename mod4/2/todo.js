@@ -11,6 +11,10 @@ function renderRepositorios(repositorios) {
 
     }
 
+    function listRepositorios() {
+        
+    }
+
 
 
 }
