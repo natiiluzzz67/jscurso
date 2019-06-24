@@ -36,3 +36,4 @@ function addTodo() {
     renderTodos();
     saveToStorage();
 }
+buttonElement.onclick = addTodo;
