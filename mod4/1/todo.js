@@ -1,0 +1,3 @@
+function checaIdade(idade) {
+    
+}
