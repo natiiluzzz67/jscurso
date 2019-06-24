@@ -37,3 +37,7 @@ function addTodo() {
     saveToStorage();
 }
 buttonElement.onclick = addTodo;
+
+function DeleteTodo(pos) {
+    
+    }
